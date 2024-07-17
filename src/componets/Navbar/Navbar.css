@@ -1,105 +1,29 @@
-/* Navbar styles */
-
-.Navbar {
-  background-color: #000;
-  color: #fff;
-  padding: 0px 0;
-  text-align: center;
-}
-a{
-  color: #fff;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-.logo img{
-  height: 35px;
-  padding: 0px 0.02px 0px 0.02px;
-}
-
-.Navbar .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 0px;
-}
-
-.Navbar .row {
-  display: flex;
-  padding: 12px;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-.logo-div {
-   height: 100%;
-}
-
-.Navbar .col-md-4 {
-  margin: 0px;
-}
 
 
-.Navbar ul.nav {
-  list-style: none;
-  display: flex;
-  align-items: center;
+.Navbar{
+   width: 100%;
+   position: fixed;
+   top: 0%;
+   padding: 2rem 4rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: white;
 }
 
-.Navbar ul.nav li {
-  margin-right: 30px;
-  width: max-content;
+.logo-div img{
+   height: 2rem;
 }
 
-#news{
-  color: #E50007;
+.div2 img{
+   height: 2rem;
 }
 
-.Navbar ul.nav a:hover {
-  color: #ccc;
-}
-
-.Navbar .social-media {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.Navbar .social-media li {
-  margin-right: 0px;
-}
-.Navbar .social-media li img {
-  height: 1.5rem;
-  margin: 1px
-}
-
-.Navbar .social-media a {
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-#asus{
-  height: fit-content;
-  border: 2px solid red;
-  border-radius: 30px;
-  padding: 4px 10px 2px 10px;
-  position: relative;
-}
-
-.Navbar .social-media a:hover {
-  color: #ccc;
-}
-.image2{
-  height: 100vw;
-}
-.image2 img{
-  width: 100%;
-}
-
-/* Responsive styles */
-
-@media (max-width: 768px) {
-}
-
-@media (max-width: 480px) {
+.div3 button{
+   background-color: #D90A81;
+   padding: 10px 15px;
+   border: 2px solid #D90A81;
+   border-radius: 15px;
+   font-size: large;
+   color: white;
 }

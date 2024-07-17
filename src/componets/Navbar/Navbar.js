@@ -1,45 +1,31 @@
-
+import logo from "../../Images/logo.png"
+import image1 from "../../Images/image1.png"
+import './Navbar.css'
 
 const Navbar = () => {
   return (
     <>
     <div className="Navbar">
-      <div className="container">
-        <div className="row">
+  
           <div className="logo-div">
             <a href="/" className="logo">
-              {/* <img src={logo} alt="logo" /> */}
+              <img src={logo} alt="logo" />
             </a>
           </div>
-          <div className="col-md-4">
-            <ul className="nav">
-              <li className="nav-item">
-                <a href="/" className="nav-link ">
-                  PRODUCTS
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="/" className="nav-link">
-                  AIOT SOLUTION
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="/" className="nav-link" id='news'>
-                  WHAT'S NEW
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="/" className="nav-link">
-                  SUPPORT
-                </a>
-              </li>
-            </ul>
+
+          <div className="div2">
+            <a href="/" className="logo">
+              <img src={image1} alt="logo" />
+            </a>
           </div>
-          <div className="col-md-4">
+
+          <div className="div3">
+            <a href="/" className="logo">
+               <button>Shop</button>
+            </a>
           </div>
+
         </div>
-      </div>
-    </div>
     </>
   );
 };
