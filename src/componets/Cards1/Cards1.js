@@ -66,7 +66,7 @@ const Cards1 = () => {
         </p>
       </div>
       <div className="ice-creams">
-        <MdKeyboardArrowLeft onClick={()=>start>0 && Setstart(start-1)} style={{ height: '100px', width: '100px', color: 'blue' }}/>
+        <MdKeyboardArrowLeft className="leftArrow" onClick={()=>start>0 && Setstart(start-1)} />
         {
         cardDetails.map((card,index)=>{
           if (index>=start && index<start+3) {
@@ -80,7 +80,7 @@ const Cards1 = () => {
           return "";
         })
        }
-       <MdOutlineKeyboardArrowRight onClick={()=>start<4 && Setstart(start+1)} style={{ height: '100px', width: '100px', color: 'blue' }} />
+       <MdOutlineKeyboardArrowRight className="rightArrow" onClick={()=>start<4 && Setstart(start+1)}  />
       </div>
     </div>
   );

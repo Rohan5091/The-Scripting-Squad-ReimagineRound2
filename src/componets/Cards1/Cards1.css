@@ -22,9 +22,15 @@
   flex-direction: column;
   width: 25%;
   gap: 1rem;
+  transition-delay: 1s;
+}
+.card:hover img{
+  position: relative;
+  top: -2rem;
 }
 .card img{
   width: 100%;
+  transition-delay: 1s;
 }
 .card button{
   color: white;
@@ -40,4 +46,17 @@
    color: #F04E98;
    font-size: larger;
    font-weight: 700;
+}
+
+.rightArrow{
+  height: 100px;
+  width: 100px;
+  color: blue;
+   
+}
+.leftArrow{
+  height: 100px;
+  width: 100px;
+  color: blue;
+
 }
