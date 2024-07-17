@@ -1,0 +1,68 @@
+.main{
+  background-color: black;
+  width: 100%;
+  height: max-content;
+  padding-top: 8rem;
+}
+.topdiv{
+  width: 1,920px;
+  height: 170px;
+  padding: 10px 30px 10px 30px;
+  gap: 10px;
+  opacity: 0px;
+  background-color: #5D45FD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topdiv p{
+   font-family: Oswald;
+   font-size: 40px;
+   font-weight: 600;
+   line-height: 118.56px;
+   text-align: left;  
+   color: white;
+   font-family: "Oswald", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 600;
+   font-style: normal;
+}
+
+.middlediv{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 2rem;
+   padding: 5rem 0;
+}
+.middlediv>div>div{
+     border: 1px solid #5D45FD;
+}
+.middlediv>div:nth-child(1){
+  border-radius: 50px 0px 0px 50px;
+  overflow: hidden;
+}
+.middlediv>div:nth-child(3){
+  border-radius: 0px 50px 50px 0px;
+  overflow: hidden;
+}
+.middlediv img{
+   height: 400px;
+   width: 400px;
+}
+.middlediv>div{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.middlediv>div>span{
+  color: #E50007;
+  font-family: Oswald;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 59.28px;
+}
+
+ 
+
