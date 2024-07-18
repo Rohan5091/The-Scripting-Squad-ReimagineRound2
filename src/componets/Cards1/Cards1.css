@@ -22,7 +22,7 @@
   flex-direction: column;
   width: 25%;
   gap: 1rem;
-  transition-delay: 1s;
+  transition: all ease 1s;
 }
 .card:hover img{
   position: relative;
@@ -52,11 +52,9 @@
   height: 100px;
   width: 100px;
   color: blue;
-   
 }
 .leftArrow{
   height: 100px;
   width: 100px;
   color: blue;
-
 }
