@@ -1,0 +1,32 @@
+
+.paytone-one-regular {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.send-button2 {
+    padding: 15px 32px;
+    font-size: 20px;
+    border-radius: 50px;
+    font-weight: 500; /* font-medium */
+    border:1px solid #bda3ef;
+    background-color: white; /* bg-[#6b3d2b] */
+    width: 198px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bda3ef; /* text-white */
+    transition: all 0.2s ease; /* transition-all */
+    box-shadow: 10px 10px 0px #bda3ef; /* initial shadow with larger offset */
+}
+
+.send-button2:hover {
+    box-shadow: 5px 5px 0px #bda3ef; /* reduce shadow on hover */
+    transform: translate(5px, 5px); /* move button to cover part of the shadow */
+}
+.send-btn2{
+    display: flex;
+    width: 100%;
+    margin-top: 45px;
+}
